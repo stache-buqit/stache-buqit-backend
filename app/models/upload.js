@@ -10,6 +10,9 @@ const uploadSchema = new mongoose.Schema({
   location: {
     type: String,
     required: true,
+  },
+  photo_api_data: {
+    type: String,
   }
 }, {
   timestamps: true,
